@@ -1,0 +1,10 @@
+{
+  "diff": true,
+  "recursive": true,
+  "require": "ts-node/register",
+  "spec": [
+    "src/**/*.test.ts"
+  ],
+  "parallel": true,
+  "jobs": 4
+}

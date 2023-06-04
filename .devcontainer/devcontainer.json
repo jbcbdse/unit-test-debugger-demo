@@ -1,0 +1,17 @@
+{
+  "name": "unit-test-debugger-demo",
+  "dockerComposeFile": [
+    "../docker/docker-compose.yml",
+    "./docker-compose.yml"
+  ],
+  "service": "dev-container",
+  "remoteUser": "user",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
